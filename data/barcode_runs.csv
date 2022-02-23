@@ -1,0 +1,9 @@
+library,sample,date,experiment,antibody,concentration,concentration_units,group,selection,frac_escape,cells_sorted,R1
+lib1,expt_149-151-none-0-reference,220128,expt_149-151,none,0,ng_per_mL,Karolinska,reference,,,/shared/ngs/illumina/agreaney/220203_VH00319_144_AAATNGMM5/Unaligned/Project_agreaney/expt_149-151_lib1_ref*.fastq.gz
+lib2,expt_149-151-none-0-reference,220128,expt_149-151,none,0,ng_per_mL,Karolinska,reference,,,/shared/ngs/illumina/agreaney/220203_VH00319_144_AAATNGMM5/Unaligned/Project_agreaney/expt_149-151_lib2_ref*.fastq.gz
+lib1,expt_149-CAB-A17-139-escape,220128,expt_149,CAB-A17,139,ng_per_mL,Karolinska,escape,0.11900000000000001,1113047.0,/shared/ngs/illumina/agreaney/220218_VH00699_65_AAAW23WM5/Unaligned/Project_agreaney/expt_149_lib1_abneg*.fastq.gz
+lib2,expt_149-CAB-A17-139-escape,220128,expt_149,CAB-A17,139,ng_per_mL,Karolinska,escape,0.11599999999999999,1119273.0,/shared/ngs/illumina/agreaney/220218_VH00699_65_AAAW23WM5/Unaligned/Project_agreaney/expt_149_lib2_abneg*.fastq.gz
+lib1,expt_150-CAB-A49-222-escape,220128,expt_150,CAB-A49,222,ng_per_mL,Karolinska,escape,0.136,1415076.0,/shared/ngs/illumina/agreaney/220218_VH00699_65_AAAW23WM5/Unaligned/Project_agreaney/expt_150_lib1_abneg*.fastq.gz
+lib2,expt_150-CAB-A49-222-escape,220128,expt_150,CAB-A49,222,ng_per_mL,Karolinska,escape,0.14,1403814.0,/shared/ngs/illumina/agreaney/220218_VH00699_65_AAAW23WM5/Unaligned/Project_agreaney/expt_150_lib2_abneg*.fastq.gz
+lib1,expt_151-CAB-C19-184-escape,220128,expt_151,CAB-C19,184,ng_per_mL,Karolinska,escape,0.138,1400000.0,/shared/ngs/illumina/agreaney/220218_VH00699_65_AAAW23WM5/Unaligned/Project_agreaney/expt_151_lib1_abneg*.fastq.gz
+lib2,expt_151-CAB-C19-184-escape,220128,expt_151,CAB-C19,184,ng_per_mL,Karolinska,escape,0.131,1318247.0,/shared/ngs/illumina/agreaney/220218_VH00699_65_AAAW23WM5/Unaligned/Project_agreaney/expt_151_lib2_abneg*.fastq.gz
