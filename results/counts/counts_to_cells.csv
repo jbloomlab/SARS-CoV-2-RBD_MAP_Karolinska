@@ -1,0 +1,9 @@
+sample_lib,date,experiment,antibody,concentration,selection,cells_sorted,counts all variants,counts SARS-CoV-2 variants,counts:cells all variants,counts:cells SARS-CoV-2 variants
+"expt_149-151-none-0-reference, lib1",220128,expt_149-151,none,0,reference,,2.98e+07,2.95e+07,,
+"expt_149-151-none-0-reference, lib2",220128,expt_149-151,none,0,reference,,3.84e+07,3.81e+07,,
+"expt_149-CAB-A17-139-escape, lib1",220128,expt_149,CAB-A17,139,escape,1113047.0,2.02e+07,1.89e+07,18.19268458564643,17.01953107101497
+"expt_149-CAB-A17-139-escape, lib2",220128,expt_149,CAB-A17,139,escape,1119273.0,2.23e+07,2.12e+07,19.89888883230454,18.925920664574235
+"expt_150-CAB-A49-222-escape, lib1",220128,expt_150,CAB-A49,222,escape,1415076.0,2.78e+07,2.63e+07,19.659000647315057,18.618201425223806
+"expt_150-CAB-A49-222-escape, lib2",220128,expt_150,CAB-A49,222,escape,1403814.0,2.4e+07,2.3e+07,17.103589934279043,16.372540094342984
+"expt_151-CAB-C19-184-escape, lib1",220128,expt_151,CAB-C19,184,escape,1400000.0,2.57e+07,2.42e+07,18.334242142857143,17.276320714285713
+"expt_151-CAB-C19-184-escape, lib2",220128,expt_151,CAB-C19,184,escape,1318247.0,2.63e+07,2.51e+07,19.91435064900584,19.00591922454593
