@@ -3,7 +3,7 @@ Analysis of mutational antigenic profiling of barcoded codon variants of SARS-Co
 
 These antibodies (CAB-A17, CAB-A49, and CAB-C49) were first described in this preprint by [Sheward, et al. (2022)](https://www.biorxiv.org/content/10.1101/2022.01.03.474825v1).
 
-Study and analysis by Allie Greaney, Jimin Lee, [Jesse Bloom](https://research.fhcrc.org/bloom/en.html), and co-authors.
+Study and analysis by Allie Greaney, [Jesse Bloom](https://research.fhcrc.org/bloom/en.html), and co-authors.
 
 This study is a collaboration with Ben Murrell, Gunilla Karlsson Hedestam, and B. Martin Hällberg at the Karolinska Institute.
 
