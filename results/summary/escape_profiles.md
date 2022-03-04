@@ -36,6 +36,9 @@ import pdb_prot_align.colorschemes
 import yaml
 ```
 
+    Matplotlib is building the font cache using fc-list. This may take a moment.
+
+
 Versions of key software:
 
 
