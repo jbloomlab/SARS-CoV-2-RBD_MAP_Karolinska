@@ -13,3 +13,10 @@
   chains:
     - E
   conditions: ALL
+
+BA1_A17:
+  pdbfile: data/pdbs/6M0J.pdb
+  chains:
+    - A
+  conditions:
+    - CAB-A17_139

@@ -431,6 +431,7 @@ for set_name, condition_set in condition_sets.items():
 ```
 
     Writing `dms-view` input file for karolinska mapped to PDB 6m0j to results/supp_data/karolinska_6m0j_dms-view_data.csv
+    Writing `dms-view` input file for karolinska mapped to PDB BA1_A17 to results/supp_data/karolinska_BA1_A17_dms-view_data.csv
 
 
 
