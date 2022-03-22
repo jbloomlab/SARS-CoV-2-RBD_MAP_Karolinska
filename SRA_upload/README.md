@@ -23,7 +23,7 @@ You will now be at the *Sample Type* page, and you have to select the package th
 Click *Microbe*--although we are studying a pathogen it's not a direct clinical sample but an experiment using yeast on a pathogen, which is why we choose this sample type.
 Then click `Continue`.
 Now you enter the sample attributes.
-For the sample name, provide a short name that describes the sample, such as `Crowe_antibody_barcodes`.
+For the sample name, provide a short name that describes the sample, such as `Karolinska_antibody_barcodes`.
 Also provide the rest of the information:
 
   - Organism: Severe acute respiratory syndrome coronavirus 2
@@ -41,7 +41,7 @@ Also provide the rest of the information:
 Then hit `Continue`.
 You will now be on the page to specify the BioProject.
 We are adding to an existing BioProject, so enter [PRJNA639956](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA639956) as the *Existing BioProject* and hit `Continue`.
-Finally, add a sample title, such as "Illumina barcode sequencing from mutational antigenic profiling of Crowe lab antibodies using yeast-displayed SARS-CoV-2 RBD."
+Finally, add a sample title, such as "Illumina barcode sequencing from mutational antigenic profiling of Karolinska antibodies using yeast-displayed SARS-CoV-2 RBD."
 Then hit `Continue`, make sure everything looks correct, then hit `Submit`.
 
 After a brief bit of processing, the *BioSample* submission should show up, along with a sample accession that will be in the format of *SAMN16054076*.
@@ -89,7 +89,7 @@ Click the option for *FTP or Aspera Command Line file preload*.
 
 If you click on the `+` FTP upload instructions, you will see details.
 Add the `Username` and `account folder` provided in these instructions to [upload_config.yaml](upload_config.yaml) as the values for the *ftp_username* and *ftp_account_folder* keys.
-Also add a value for the *ftp_subfolder* that is meaningful for this particular submission, such as *Crowe_antibody_barcodes*.
+Also add a value for the *ftp_subfolder* that is meaningful for this particular submission, such as *Karolinska_antibody_barcodes*.
 Finally, put the FTP password as plain text in a file called `ftp_password.txt` which is **not** tracked in this repo for privacy.
 
 ## Upload the sequencing data
@@ -101,7 +101,7 @@ It then uses FTP to upload them to the SRA.
 You can run the notebook interactively, but it will take a little while so make sure it doesn't time out.
 If you want to instead submit it via `slurm`, do this with:
 
-    sbatch --wrap="jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.timeout=-1 upload_to_SRA.ipynb" --time 2-0
+    sbatch --wrap="jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.timeout=-1 make_and_upload_tar.ipynb" --time 2-0
 
 After you have finished running [make_and_upload_tar.ipynb](make_and_upload_tar.ipynb), check carefully to make sure the FTP upload was completed.
 If needed, you can manually log into the FTP site to see the file and use `ls` to see the size of what has been transferred.
@@ -121,3 +121,5 @@ After a paper is published, you should update the metadata description to link t
 To do this, login to the [SRA Submission Portal](https://submit.ncbi.nlm.nih.gov/subs/sra/) and click the `Manage data` button for BioProject [PRJNA639956](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA639956) and there will be options where you can add *Publications* as well as update the project's free-form description text if needed.
 Also be sure that any relevant NIH grants are added.
 
+# For this project:
+The raw Illumina FASTQ files for the yeast-displayed antibody-escape experiments are available on the NCBI Short Read Archive (SRA) under BioProject PRJNA639956, BioSample SAMN26873633.
