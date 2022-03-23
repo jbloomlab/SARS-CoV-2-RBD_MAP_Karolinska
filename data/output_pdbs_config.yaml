@@ -15,7 +15,7 @@
   conditions: ALL
 
 BA1_A17:
-  pdbfile: data/pdbs/6M0J.pdb
+  pdbfile: data/pdbs/BA1_A17.pdb
   chains:
     - A
   conditions:

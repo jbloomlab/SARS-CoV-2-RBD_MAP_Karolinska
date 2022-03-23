@@ -229,7 +229,7 @@ for name, specs in output_pdbs_config.items():
         results/pdb_outputs/CAB-C19_184_6m0j_norm_total_escape.pdb
         results/pdb_outputs/CAB-C19_184_6m0j_norm_max_escape.pdb
     
-    Making PDB mappings for BA1_A17 to data/pdbs/6M0J.pdb
+    Making PDB mappings for BA1_A17 to data/pdbs/BA1_A17.pdb
     Making mappings for 1 conditions.
     Mapping to the following chains: A
       Writing B-factor re-assigned PDBs for CAB-A17_139 to:
