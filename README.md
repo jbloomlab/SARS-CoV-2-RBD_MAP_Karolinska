@@ -1,4 +1,6 @@
 # Mutational antigenic profiling of SARS-CoV-2 RBD affinity-matured IGHV3-53 antibodies
+[![DOI](https://zenodo.org/badge/462933506.svg)](https://zenodo.org/doi/10.5281/zenodo.11008141)
+
 Analysis of mutational antigenic profiling of barcoded codon variants of SARS-CoV-2 RBD.
 
 These antibodies (CAB-A17, CAB-A49, and CAB-C19) were first described in this preprint by [Sheward, et al. (2022)](https://www.biorxiv.org/content/10.1101/2022.01.03.474825v1).
